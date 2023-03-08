@@ -13,8 +13,20 @@
         android:text="TextView"
         app:layout_constraintBottom_toTopOf="@+id/text_test1"
         app:layout_constraintTop_toTopOf="parent"
-        tools:layout_editor_absoluteX="176dp"
-        tools:ignore="MissingConstraints" />
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="176dp" />
+
+    <TextView
+        android:id="@+id/quiz_body"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        app:layout_constraintBottom_toTopOf="@+id/next_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/text_test1"
+        app:layout_constraintVertical_bias="0.308" />
 
     <TextView
         android:id="@+id/text_test1"
@@ -25,6 +37,44 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/next_button"
+        app:layout_constraintEnd_toEndOf="@+id/quiz_body"
+        app:layout_constraintStart_toStartOf="@+id/quiz_body"
+        app:layout_constraintTop_toBottomOf="@+id/quiz_body" >
+
+        <RadioButton
+            android:id="@+id/quiz1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="1번  " />
+
+        <RadioButton
+            android:id="@+id/quiz2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="2번  " />
+
+        <RadioButton
+            android:id="@+id/quiz3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="3번  " />
+
+        <RadioButton
+            android:id="@+id/quiz4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="4번  " />
+    </RadioGroup>
 
     <Button
         android:id="@+id/next_button"
