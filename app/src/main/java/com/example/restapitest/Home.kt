@@ -79,22 +79,6 @@ class Home : AppCompatActivity() {
 
         category_name.setText(name)
 
-        val intent = Intent(this,MainActivity::class.java)
-        subject1.setOnClickListener {
-            intent.putExtra("subject",subject1.id)
-            startActivity(intent,options.toBundle())
-        }
-        subject2.setOnClickListener {
-            intent.putExtra("subject",subject2.id)
-            startActivity(intent,options.toBundle())
-        }
-        subject3.setOnClickListener {
-            intent.putExtra("subject",subject3.id)
-            startActivity(intent,options.toBundle())
-        }
-        val quizRecyclerView: RecyclerView = findViewById(R.id.quizbookview)
-
-
 
     }
     override fun onBackPressed() {

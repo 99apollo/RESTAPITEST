@@ -82,9 +82,12 @@ class MainActivity : AppCompatActivity() {
                     Log.e("문제 확인",templist[i].title)
                 }
 
-                if(templist==null){
+                if(templist.isEmpty()){
                     Log.e("리스트 문제 없음?",templist.toString())
-                    Toast.makeText(this, "퀴즈가 없습니다!", Toast.LENGTH_SHORT).show()
+                    runOnUiThread {
+                        Toast.makeText(this, "퀴즈가 없습니다!", Toast.LENGTH_SHORT).show()
+                        finish()
+                    }
                 }else{
                     runOnUiThread{
 
