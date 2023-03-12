@@ -1,17 +1,28 @@
-[
-    {
-        "title": "1번은?",
-        "body": "1.1번이다/2/3/4",
-        "answer": 0
-    },
-    {
-        "title": "3번은?",
-        "body": "1/2/3/4",
-        "answer": 2
-    },
-    {
-        "title": "2번은?",
-        "body": "1/2/3/4",
-        "answer": 1
-    }
-]
+{
+    "category_name":"과학",
+    "category_id":2,
+    "quizs":[
+        {
+            "category":2,
+            "quiz_name":"과학1",
+            "quiz_id":3,
+            "questions":[
+                {
+                    "title":"과1",
+                    "body":"1\/2\/3\/4",
+                    "answer":0
+                }]
+        },
+        {
+            "category":2,
+            "quiz_name":"과학2",
+            "quiz_id":4,
+            "questions":[
+                {
+                    "title":"과2",
+                    "body":"1\/2\/3\/4",
+                    "answer":1
+                }]
+
+        }]
+}

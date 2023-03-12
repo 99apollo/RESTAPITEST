@@ -3,7 +3,14 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/RESTAPITEST/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2275" />
+        <entry key="..\:/RESTAPITEST/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2275" />
+        <entry key="..\:/RESTAPITEST/app/src/main/res/drawable/round_fill_tv_color.xml" value="0.2275" />
+        <entry key="..\:/RESTAPITEST/app/src/main/res/layout/activity_category.xml" value="0.2672239108409321" />
+        <entry key="..\:/RESTAPITEST/app/src/main/res/layout/activity_home.xml" value="0.33" />
         <entry key="..\:/RESTAPITEST/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/RESTAPITEST/app/src/main/res/layout/activity_result.xml" value="0.33" />
+        <entry key="..\:/RESTAPITEST/app/src/main/res/layout/quizbook_item.xml" value="0.5484375" />
       </map>
     </option>
   </component>
